@@ -6,10 +6,25 @@ struct node
     int data;
     struct node *next;
 };
-
+struct node *prev, *head, *p;
+void display()
+{
+    if (head == NULL)
+        printf ("The list is empty.");
+    else
+    {
+        printf ("The list is: \n);
+        struct node *tmp = head;
+        while (tmp->next!=NULL)
+        {
+             printf("%d ----->", tmp->data);
+            tmp = tmp->next;
+        }
+        printf("%d----->NULL", tmp->data);
+    }
+}
 int main()
 {
-    struct node *prev, *head, *p;
     int n, i;
     printf("Number of elements: \n");
     scanf("%d", &n);
@@ -25,5 +40,6 @@ int main()
             prev->next = p;
         prev = p;
     }
+    display();
     return 0;
 }
