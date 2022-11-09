@@ -163,8 +163,7 @@ int main()
             printf("Enter the value to be searched: \n");
             int ser;
             scanf("%d", &ser);
-            int s= search(root, ser);
-            if (s==1)
+            if (search(root, ser)==1)
             printf("The node was found in the tree.\n");
             else
             printf ("The node is not found.\n");
