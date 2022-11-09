@@ -57,7 +57,7 @@ int main()
         case 1:
             printf("Enter the length of the list: \n");
             int l1;
-            scanf("%d, &l1");
+            scanf("%d", &l1);
             for (int i = 0; i < l1; i++)
             {
                 printf("Enter the node value: \n");
@@ -69,7 +69,7 @@ int main()
         case 2:
             printf("Enter the length of the list: \n");
             int l2;
-            scanf("%d, &l2");
+            scanf("%d", &l2);
             for (int i = 0; i < l2; i++)
             {
                 printf("Enter the node value: \n");
