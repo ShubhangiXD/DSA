@@ -1,6 +1,9 @@
 // input: 12: 48, 44, 19, 59, 72, 80, 42, 65, 82, 08, 95, 68. <<store in an array>>
 // pivot is at 48, find i and j. Use quick sort
 //! the program has an error, do not refer to this program
+//TODO correct the program
+
+
 #include <stdio.h>
 
 void swap(int* a, int* b)
