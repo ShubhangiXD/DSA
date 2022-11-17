@@ -75,7 +75,7 @@ int main()
         {
             printf("Enter section: ");
             scanf("%d", &b);
-            printf("Enter subject code: ");
+            printf("Enter subject code: \n");
             scanf("%s", &c);
             printf("Enter credit: ");
             scanf("%d", &d);
